@@ -1,0 +1,42 @@
+.section--cv{
+    min-width: 375px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cv-container{
+    height: 18vh;
+    background-color: white;
+    border-radius: 2%;
+    border-bottom-style: ridge;
+    display: flex;
+    flex-direction: column;
+}
+.cv-content{
+    margin: 1rem;
+}
+.cv-text{
+    color:rgb(51, 50, 50);
+    font-size:x-large;
+    font-weight: 100;
+}
+.cv-button{
+    background-color: white;
+    border: 0px;
+    width: 30%;
+    height: 30%;
+    font-size: medium;
+    align-self: center;
+}
+.cv-button:hover{
+   background-color:  rgb(227, 227, 227);
+   cursor: pointer;
+   transition: 1s;
+}
+
+@media screen and (max-width: 500px){
+    .cv-container{
+        width: 90%;
+    }
+}

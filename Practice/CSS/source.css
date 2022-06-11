@@ -1,0 +1,83 @@
+.section--source{
+    min-width: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+#source-title{
+    width: 34rem;
+    margin-top: 4vh;
+    position: fixed;
+    font-size: 2.25rem;
+    color: rgb(57, 56, 56);
+    font-weight: lighter;
+    line-height: 1.2;
+    letter-spacing: -0.000083em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section--source_container{
+    margin-top: 18vh;
+    overflow: auto;
+    /* border: 5px solid; */
+    width: 34rem;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+.source-container{
+    text-decoration: none;
+    color: rgb(89, 85, 85);
+    cursor: pointer;
+    background-color: white;
+    border-radius: 2%;
+    border-bottom: 0.2px solid rgb(197, 188, 188);
+    border-bottom-style: groove;
+    margin-top: 0.6rem;
+    display: flex;
+    flex-direction: column;
+}
+.source-head{
+    /* border: 3px solid; */
+    width: 100%;
+    display: flex;
+}
+.source-margin{
+    margin: 0.7rem;
+}
+.source-symbol{
+    color:white;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin:0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.source-title{
+    font-weight:bold;
+}
+.source-content{
+    /* border:3px solid; */
+    width: 100%;
+}
+.source-foot{
+    /* border: 3px solid; */
+    width: 100%;
+    display: flex;
+}
+.source-text{
+    font-weight: lighter;
+    color: rgb(123, 118, 118);
+}
+
+@media screen and (max-width: 600px){
+    #source-title{
+        font-size: 1.8rem;
+        width: 22rem;
+    }
+    .section--source_container{
+        margin-top: 16vh;
+        width: 90%;
+    }
+}
